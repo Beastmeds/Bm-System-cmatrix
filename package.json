@@ -1,0 +1,39 @@
+{
+  "name": "@bm-system/cmatrix",
+  "version": "2.0.2",
+  "description": "CMatrix - matrix like effect in your terminal (npm wrapper around the C build)",
+  "homepage": "https://github.com/Bm-Systems/cmatrix",
+  "license": "GPL-3.0",
+  "author": "Bm-Systems",
+  "bin": {
+    "cmatrix": "bin/cmatrix.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "install": "npm run build",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "CMakeLists.txt",
+    "cmatrix.c",
+    "matrix.fnt",
+    "mtx.pcf",
+    "COPYING",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "cmatrix",
+    "terminal",
+    "ncurses",
+    "matrix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bm-Systems/cmatrix.git"
+  }
+}
