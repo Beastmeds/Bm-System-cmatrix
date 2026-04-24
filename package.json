@@ -1,6 +1,6 @@
 {
   "name": "@bm-system/cmatrix",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "CMatrix - matrix like effect in your terminal (npm wrapper around the C build)",
   "homepage": "https://github.com/Bm-Systems/cmatrix",
   "license": "GPL-3.0",
